@@ -2,7 +2,7 @@
 
 
 
-In this repository, I have collected all of the homework assignments that were assigned during the 3rd semester of the Erasmus Mundus program in theoretical chemistry and computational modeling (TCCM).
+In this repository, I have collected all of the homework assignments that were assigned during the 3rd semester of the Erasmus Mundus program in theoretical chemistry and computational modeling ([TCCM](https://www.emtccm.org/m2-study-plan/)).
 
 ## List of course acronyms
 
