@@ -6,10 +6,13 @@ In this repository, I have collected all of the homework assignments that were a
 
 ## List of course acronyms
 
-| **Advanced Methods in Electronic Structure, Dynamics and Molecular Modelling** | **AMES**     |
-| **Multiscale, Machine learning and QSAR Methods applied to biomolecules** | **MML**  |
-| **Advanced Computational Techniques**                        | **ACT**  |
-| **Theoretical Methods for Simulation of Materials**          | **TMSM** |
+| **Course**                                                        | **Acronym** |
+|:------------------------------------------------------------------|:-----------:|
+| Advanced Methods in Electronic Structure, Dynamics and Modelling  |    AMES     |
+| Multiscale, Machine learning and QSAR Methods applied to biomolecules |    MML      |
+| Advanced Computational Techniques                                 |    ACT      |
+| Theoretical Methods for Simulation of Materials                   |    TMSM     |
+
 
 
 
