@@ -1,0 +1,46 @@
+&CONTROL
+    calculation = 'bands'
+    prefix = 'WSe2-1T'
+    verbosity ='high'
+    disk_io = 'low'
+    outdir = './'
+    pseudo_dir = './'
+    wf_collect = .true.
+    etot_conv_thr = 1.0D-4
+    forc_conv_thr = 1.0D-3
+    nstep = 200
+/
+&SYSTEM
+    ibrav = 0
+    nat = 6
+    ntyp = 2
+    ecutwfc = 50.0    
+    ecutrho = 400.0   
+    nbnd = 40         
+/
+&ELECTRONS
+  conv_thr = 1.0D-8  ! SCF convergence threshold is typically fine for NSCF
+  electron_maxstep = 200,
+  mixing_mode = 'plain'
+  mixing_beta = 0.1
+/
+&IONS
+ion_dynamics = 'bfgs'
+/
+ATOMIC_SPECIES
+Se     78.96 Se.upf
+W      183.84 W.upf
+ATOMIC_POSITIONS crystal
+W             0.6666666700        0.3333333300        0.1361699635
+W             0.3333333300        0.6666666700        0.8638300365
+Se            0.3333333300        0.6666666700        0.2050104446
+Se            0.6666666700        0.3333333300        0.9327647299
+Se            0.3333333300        0.6666666700        0.0672352701
+Se            0.6666666700        0.3333333300        0.7949895554
+K_POINTS crystal
+245
+    <...>
+CELL_PARAMETERS angstrom
+    3.3178532700     0.0000000000     0.0000000000
+   -1.6589266350     2.8733452178     0.0000000000
+    0.0000000000     0.0000000000    24.0685192700

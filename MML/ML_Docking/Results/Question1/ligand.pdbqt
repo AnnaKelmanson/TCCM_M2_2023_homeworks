@@ -1,0 +1,44 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_3  and  C3_4 
+REMARK    2  A    between atoms: C2_3  and  C6_5 
+REMARK    3  A    between atoms: C2_3  and  C13_12 
+REMARK    4  A    between atoms: C3_4  and  C_21 
+REMARK    5  A    between atoms: C11_10  and  O_19 
+ROOT
+HETATM    1  C1  RWF A2001      37.085  33.325  36.717  0.00  0.00     0.035 A 
+HETATM    2  O1  RWF A2001      36.008  31.980  38.464  0.00  0.00    -0.287 OA
+HETATM    3  C11 RWF A2001      34.877  31.760  37.692  0.00  0.00     0.193 A 
+HETATM    4  C13 RWF A2001      34.802  32.342  36.345  0.00  0.00     0.046 A 
+HETATM    5  C14 RWF A2001      35.889  33.095  35.879  0.00  0.00     0.132 A 
+HETATM    6  C15 RWF A2001      38.238  34.072  36.329  0.00  0.00     0.017 A 
+HETATM    7  C16 RWF A2001      39.315  34.205  37.217  0.00  0.00     0.001 A 
+HETATM    8  C17 RWF A2001      39.277  33.598  38.485  0.00  0.00     0.003 A 
+HETATM    9  C18 RWF A2001      38.177  32.864  38.893  0.00  0.00     0.038 A 
+HETATM   10  C19 RWF A2001      37.092  32.724  38.006  0.00  0.00     0.091 A 
+HETATM   11  O     *     0      35.840  33.653  34.563  0.00  0.00    -0.190 OA
+ENDROOT
+BRANCH   4  12
+HETATM   12  C2  RWF A2001      33.515  32.046  35.549  0.00  0.00     0.066 C 
+BRANCH  12  13
+HETATM   13  C3  RWF A2001      33.893  31.522  34.141  0.00  0.00     0.092 C 
+BRANCH  13  14
+HETATM   14  C     *     0      32.803  30.636  33.509  0.00  0.00     0.124 C 
+HETATM   15  O     *     0      31.930  30.092  34.233  0.00  0.00    -0.298 OA
+HETATM   16  C     *     0      32.782  30.416  31.985  0.00  0.00     0.091 C 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+BRANCH  12  17
+HETATM   17  C6  RWF A2001      32.562  33.233  35.461  0.00  0.00    -0.049 A 
+HETATM   18  C7  RWF A2001      31.421  33.292  36.290  0.00  0.00     0.008 A 
+HETATM   19  C8  RWF A2001      30.530  34.387  36.219  0.00  0.00     0.001 A 
+HETATM   20  C9  RWF A2001      30.768  35.429  35.326  0.00  0.00     0.000 A 
+HETATM   21  C10 RWF A2001      31.876  35.389  34.510  0.00  0.00     0.001 A 
+HETATM   22  C12 RWF A2001      32.774  34.306  34.567  0.00  0.00     0.008 A 
+ENDBRANCH  12  17
+ENDBRANCH   4  12
+BRANCH   3  23
+HETATM   23  O     *     0      33.796  30.975  38.201  0.00  0.00    -0.340 OA
+HETATM   24  H     *     0      34.060  30.563  39.027  0.00  0.00     0.220 HD
+ENDBRANCH   3  23
+TORSDOF 5

@@ -1,0 +1,9 @@
+&DOS
+    prefix='WSe2-2H',
+    outdir='./out/',
+    fildos='WSe2-2H.dos',
+    Emin=-10.0,
+    Emax=10.0,
+    DeltaE=0.01,
+    degauss=0.02
+/

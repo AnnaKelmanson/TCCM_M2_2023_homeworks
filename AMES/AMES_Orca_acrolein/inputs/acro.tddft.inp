@@ -1,0 +1,7 @@
+! TPSS def2-SVP 
+
+%tddft nroots   10
+       maxdim   64
+       end
+
+* xyzfile 0 1 acro.xyz

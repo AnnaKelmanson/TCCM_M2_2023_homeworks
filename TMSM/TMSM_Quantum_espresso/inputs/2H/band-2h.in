@@ -1,0 +1,5 @@
+&BANDS
+prefix='WSe2-2H'
+outdir='./'
+filband='WSe2-2H-b'
+/

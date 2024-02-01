@@ -1,0 +1,38 @@
+&CONTROL
+  calculation = 'nscf'
+  title = 'WSe2-2H-NSCF'
+  prefix = 'WSe2-2H'
+  outdir = './out/'
+  pseudo_dir = './'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 6
+  ntyp = 2
+  ecutwfc = 50.0    
+  ecutrho = 400.0   
+  nbnd = 40         
+/
+&ELECTRONS
+  conv_thr = 1.0D-8  
+  mixing_beta = 0.4  
+/
+ATOMIC_SPECIES
+Se     78.96 Se.upf
+W      183.84 W.upf
+ATOMIC_POSITIONS crystal
+W             0.6666666700        0.3333333300        0.7500000000
+W             0.3333333300        0.6666666700        0.2500000000
+Se            0.3333333300        0.6666666700        0.8707765894
+Se            0.6666666700        0.3333333300        0.3707765894
+Se            0.3333333300        0.6666666700        0.6292234106
+Se            0.6666666700        0.3333333300        0.1292234106
+K_POINTS automatic
+18 18 6 0 0 0
+CELL_PARAMETERS angstrom
+      3.3199329200       0.0000000000       0.0000000000
+     -1.6599664600       2.8751462476       0.0000000000
+      0.0000000000       0.0000000000      13.7371873000
+
+

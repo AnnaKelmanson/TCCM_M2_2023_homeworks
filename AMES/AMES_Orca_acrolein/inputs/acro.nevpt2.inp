@@ -1,0 +1,9 @@
+! def2-SVP  nevpt2
+
+%casscf nel    6
+        norb   5
+        nroots 5
+        switchstep nr
+        end
+
+* xyzfile 0 1 acro.xyz

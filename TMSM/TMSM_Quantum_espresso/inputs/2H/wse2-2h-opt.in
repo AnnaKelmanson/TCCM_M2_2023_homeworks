@@ -1,0 +1,47 @@
+&CONTROL
+  calculation = 'relax'
+  etot_conv_thr =   6.0000000000d-05
+  forc_conv_thr =   1.0000000000d-04
+  outdir = './'
+  prefix = 'WSe2-2H'
+  pseudo_dir = './'
+  tprnfor = .true.
+  tstress = .true.
+  verbosity = 'high'
+/
+&SYSTEM
+  degauss =   1.4699723600d-02
+  ecutrho =   2.4000000000d+02
+  ecutwfc =   3.0000000000d+01
+  ibrav = 0
+  nat = 6
+  nosym = .false.
+  ntyp = 2
+  occupations = 'smearing'
+  smearing = 'cold'
+/
+&ELECTRONS
+  conv_thr =   1.2000000000d-09
+  electron_maxstep = 80
+  mixing_beta =   4.0000000000d-01
+/
+&IONS
+ion_dynamics='bfgs'
+/
+ATOMIC_SPECIES
+Se     78.96 Se.upf
+W      183.84 W.upf
+ATOMIC_POSITIONS crystal
+W            0.6666666700       0.3333333300       0.7500000000 
+W            0.3333333300       0.6666666700       0.2500000000 
+Se           0.3333333300       0.6666666700       0.8710007900 
+Se           0.6666666700       0.3333333300       0.3710007900 
+Se           0.3333333300       0.6666666700       0.6289992100 
+Se           0.6666666700       0.3333333300       0.1289992100
+K_POINTS automatic
+11 11 3 0 0 0
+CELL_PARAMETERS angstrom
+      3.3199329200       0.0000000000       0.0000000000
+     -1.6599664600       2.8751462476       0.0000000000
+      0.0000000000       0.0000000000      13.7371873000
+

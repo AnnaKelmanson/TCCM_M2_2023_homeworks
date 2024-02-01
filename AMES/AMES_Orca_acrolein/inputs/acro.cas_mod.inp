@@ -1,0 +1,15 @@
+! def2-SVP  nevpt2
+
+%casscf nel    6
+        norb   5
+        nroots 5
+        switchstep nr
+        end
+
+%scf
+  rotate 
+   {11,12,90} 
+  end
+end
+
+* xyzfile 0 1 acro.xyz

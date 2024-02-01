@@ -1,0 +1,82 @@
+TITLE       Required
+REMARK   1 File created by GaussView 5.0.9
+HETATM    1  C1  RWF A2001      37.085  33.325  36.717                       C
+HETATM    2  O1  RWF A2001      36.008  31.980  38.464                       O
+HETATM    3  C2  RWF A2001      33.515  32.046  35.549                       C
+HETATM    4  C3  RWF A2001      33.893  31.522  34.141                       C
+HETATM    5  C6  RWF A2001      32.562  33.233  35.461                       C
+HETATM    6  C7  RWF A2001      31.421  33.292  36.290                       C
+HETATM    7  C8  RWF A2001      30.530  34.387  36.219                       C
+HETATM    8  C9  RWF A2001      30.768  35.429  35.326                       C
+HETATM    9  C10 RWF A2001      31.876  35.389  34.510                       C
+HETATM   10  C11 RWF A2001      34.877  31.760  37.692                       C
+HETATM   11  C12 RWF A2001      32.774  34.306  34.567                       C
+HETATM   12  C13 RWF A2001      34.802  32.342  36.345                       C
+HETATM   13  C14 RWF A2001      35.889  33.095  35.879                       C
+HETATM   14  C15 RWF A2001      38.238  34.072  36.329                       C
+HETATM   15  C16 RWF A2001      39.315  34.205  37.217                       C
+HETATM   16  C17 RWF A2001      39.277  33.598  38.485                       C
+HETATM   17  C18 RWF A2001      38.177  32.864  38.893                       C
+HETATM   18  C19 RWF A2001      37.092  32.724  38.006                       C
+HETATM   19  H2  RWF A2001      32.975  31.294  36.085                       H
+HETATM   20 1H3  RWF A2001      34.743  30.887  34.282                       H
+HETATM   21 2H3  RWF A2001      33.969  32.387  33.516                       H
+HETATM   22  H7  RWF A2001      31.228  32.498  36.981                       H
+HETATM   23  H8  RWF A2001      29.669  34.416  36.854                       H
+HETATM   24  H9  RWF A2001      30.092  36.257  35.274                       H
+HETATM   25  H10 RWF A2001      32.057  36.190  33.824                       H
+HETATM   26  H12 RWF A2001      33.629  34.296  33.924                       H
+HETATM   27  H15 RWF A2001      38.280  34.529  35.363                       H
+HETATM   28  H16 RWF A2001      40.174  34.774  36.927                       H
+HETATM   29  H17 RWF A2001      40.112  33.705  39.145                       H
+HETATM   30  H18 RWF A2001      38.151  32.412  39.863                       H
+TER      31      RWF A2001
+HETATM   32  O     *     0      33.796  30.975  38.201                       O
+HETATM   33  O     *     0      35.840  33.653  34.563                       O
+HETATM   34  C     *     0      32.803  30.636  33.509                       C
+HETATM   35  O     *     0      31.930  30.092  34.233                       O
+HETATM   36  C     *     0      32.782  30.416  31.985                       C
+HETATM   37  H     *     0      34.060  30.563  39.027                       H
+HETATM   38  H     *     0      32.842  31.362  31.487                       H
+HETATM   39  H     *     0      33.616  29.810  31.700                       H
+HETATM   40  H     *     0      31.872  29.925  31.708                       H
+END
+CONECT    1   13   14   18
+CONECT    2   10   18
+CONECT    3    4    5   12   19
+CONECT    4    3   20   21   34
+CONECT    5    3    6   11
+CONECT    6    5    7   22
+CONECT    7    6    8   23
+CONECT    8    7    9   24
+CONECT    9    8   11   25
+CONECT   10    2   12   32
+CONECT   11    5    9   26
+CONECT   12    3   10   13
+CONECT   13    1   12   33
+CONECT   14    1   15   27
+CONECT   15   14   16   28
+CONECT   16   15   17   29
+CONECT   17   16   18   30
+CONECT   18    1    2   17
+CONECT   19    3
+CONECT   20    4
+CONECT   21    4
+CONECT   22    6
+CONECT   23    7
+CONECT   24    8
+CONECT   25    9
+CONECT   26   11
+CONECT   27   14
+CONECT   28   15
+CONECT   29   16
+CONECT   30   17
+CONECT   32   37   10
+CONECT   33   13
+CONECT   34   35   36    4
+CONECT   35   34
+CONECT   36   34   38   39   40
+CONECT   37   32
+CONECT   38   36
+CONECT   39   36
+CONECT   40   36
