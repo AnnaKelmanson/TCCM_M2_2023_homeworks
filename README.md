@@ -18,13 +18,13 @@ In this repository, I have collected all of the homework assignments that were a
 
 ## List of homeworks
 
-| Course | Prof                            | Homework                                                     | Path                          | Mark |
+| Course | Prof                            | Homework                                                     | Path                          | Mark/10 |
 | :----: | ------------------------------- | :----------------------------------------------------------- | ----------------------------- | :--: |
-|  AMES  | Coen de Graaf                   | Multiconfigurational Methods                                 | ./AMES/AMES_Orca_acrolein/    | TBA  |
-|  AMES  | Manuel Lara                     | Time Dependent Wave Packet Approach                          | ./AMES/AMES_Wavepackets/      | TBA  |
-|  AMES  | Jeremy Harvey                   | QMMM Methods                                                 | ./AMES/AMES_QMMM_review/      | TBA  |
-|  MML   | Romuald Poteau                  | Introduction to Machine Learning for Chemists: Visualization, Data Processing, Regression, Classification | ./MML/ML_NN/                  | TBA  |
-|  MML   | F. Javier Luque                 | Prediction of Binding Affinity in Ligand-Target Complexes    | ./MML/ML_Docking/             | TBA  |
+|  AMES  | Coen de Graaf                   | Multiconfigurational Methods                                 | ./AMES/AMES_Orca_acrolein/    | 9.5  |
+|  AMES  | Manuel Lara                     | Time Dependent Wave Packet Approach                          | ./AMES/AMES_Wavepackets/      | 8.6  |
+|  AMES  | Jeremy Harvey                   | QMMM Methods                                                 | ./AMES/AMES_QMMM_review/      | 9  |
+|  MML   | Romuald Poteau                  | Introduction to Machine Learning for Chemists: Visualization, Data Processing, Regression, Classification | ./MML/ML_NN/                  | 9  |
+|  MML   | F. Javier Luque                 | Prediction of Binding Affinity in Ligand-Target Complexes    | ./MML/ML_Docking/             | 8.8  |
 |  ACT   | Andrew Emerson and Nitin Shukla | MPI                                                          | ./ACT/ACT_MPI/                | TBA  |
 |  ACT   | Susana Bueno and Maria Montagna | Introduction to python                                       | ./ACT/ACT_Python/             | TBA  |
 |  TMSM  | Michele Pisarra                 | Quantum Espresso WSe2                                        | ./TMSM/TMSM_Quantum_espresso/ | TBA  |
