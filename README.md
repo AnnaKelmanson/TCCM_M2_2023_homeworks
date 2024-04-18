@@ -25,10 +25,10 @@ In this repository, I have collected all of the homework assignments that were a
 |  AMES  | Jeremy Harvey                   | QMMM Methods                                                 | ./AMES/AMES_QMMM_review/      | 9  |
 |  MML   | Romuald Poteau                  | Introduction to Machine Learning for Chemists: Visualization, Data Processing, Regression, Classification | ./MML/ML_NN/                  | 9  |
 |  MML   | F. Javier Luque                 | Prediction of Binding Affinity in Ligand-Target Complexes    | ./MML/ML_Docking/             | 8.8  |
-|  ACT   | Andrew Emerson and Nitin Shukla | MPI                                                          | ./ACT/ACT_MPI/                | TBA  |
-|  ACT   | Susana Bueno and Maria Montagna | Introduction to python                                       | ./ACT/ACT_Python/             | TBA  |
-|  TMSM  | Michele Pisarra                 | Quantum Espresso WSe2                                        | ./TMSM/TMSM_Quantum_espresso/ | TBA  |
-|  TMSM  | José Gamez                      | Evaluating Diffusion Coefficients in LAMMPS                  | ./TMSM/TMSM_Lammps/           | TBA  |
+|  ACT   | Andrew Emerson and Nitin Shukla | MPI                                                          | ./ACT/ACT_MPI/                | 7  |
+|  ACT   | Susana Bueno and Maria Montagna | Introduction to python                                       | ./ACT/ACT_Python/             | 8.5  |
+|  TMSM  | Michele Pisarra                 | Quantum Espresso WSe2                                        | ./TMSM/TMSM_Quantum_espresso/ | 5  |
+|  TMSM  | José Gamez                      | Evaluating Diffusion Coefficients in LAMMPS                  | ./TMSM/TMSM_Lammps/           | 6.5  |
 
 
 
